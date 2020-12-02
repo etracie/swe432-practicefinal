@@ -35,7 +35,7 @@ public class PracticeExam extends HttpServlet // Inheriting from HttpServlet mak
                 out.println("</style>");
 		out.println("</head>");		
 		out.println("<body style='background-color: rgb(54,94,120);'>");
-                out.println("<h1 align='center' style='padding:20px; font-size:40px; color: rgb(235,197,0);'>Beth's Practice Exam</h1>")'
+                out.println("<h1 align='center' style='padding:20px; font-size:40px; color: rgb(235,197,0);'>Beth's Practice Exam</h1>");
                 out.println("<div align='center'>");
                 out.println("<h2 align='center' style='font-size: 30px;'>Your Favorite Book Titles:</h2>");
                 out.println("<form> <input type='text' id='book1' name='book1'><br>");
