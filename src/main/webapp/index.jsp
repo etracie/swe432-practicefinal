@@ -26,7 +26,7 @@
                 </style>
 	</head>
 	<%@ page import="java.util.Date" %>
-	<body>
+	<body style="background-color: rgb(23,53,95);">
 		<h1 align="center" style="padding:20px; font-size:40px; color: rgb(235,197,0);">Beth's Practice Exam</h1>
                 <div align="center">
                         <h2 align="center" style="font-size: 30px;">Your Favorite Book Titles:</h2>
