@@ -42,6 +42,7 @@ public class PracticeExam extends HttpServlet // Inheriting from HttpServlet mak
                 out.println("<br><input type='text' id='book2' name='book2'><br>");
                 out.println("<br><input type='text' id='book3' name='book3'><br>");
                 out.println("<br><button type='submit'>Submit</button>");
+		out.println("<button type='submit'>Reverse</button>");
                 out.println("</form>");
                 out.println("</div>");
 
