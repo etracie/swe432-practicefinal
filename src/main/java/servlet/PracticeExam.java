@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 // The @WebServletannotation is used to declare a servlet
 @WebServlet(name = "Practice Exam", urlPatterns = {"/PracticeExam"}) 
-public class Logic extends HttpServlet // Inheriting from HttpServlet makes this a servlet
+public class PracticeExam extends HttpServlet // Inheriting from HttpServlet makes this a servlet
 {
 
 	static String Domain = "cs.gmu.edu:8443";
