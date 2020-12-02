@@ -26,12 +26,17 @@
                 </style>
 	</head>
 	<%@ page import="java.util.Date" %>
-	<body style="background-color: rgb(23,53,95);">
+	<body style="background-color: rgb(54,94,120);">
 		<h1 align="center" style="padding:20px; font-size:40px; color: rgb(235,197,0);">Beth's Practice Exam</h1>
                 <div align="center">
                         <h2 align="center" style="font-size: 30px;">Your Favorite Book Titles:</h2>
                         <!-- MRE 1. accept three strings & concat them -->
-
+			<form>
+				<input type="text" id="book1" name="book1"><br>
+				<input type="text" id="book2" name="book2"><br>
+				<input type="text" id="book3" name="book3"><br>
+				<button type='submit'>Submit</button>
+			</form>
                         <!-- MRE 2. select any order of the strings to output -->
                 </div>
 	</body>
