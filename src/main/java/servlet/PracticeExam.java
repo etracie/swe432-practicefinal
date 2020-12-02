@@ -81,6 +81,6 @@ public class PracticeExam extends HttpServlet // Inheriting from HttpServlet mak
 		out.println("</div>");
 		out.println("</body>");
 		out.println("</html>");
-
+	}//end doPost()
 
 }  // end 
