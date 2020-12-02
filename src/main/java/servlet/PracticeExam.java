@@ -28,10 +28,23 @@ public class PracticeExam extends HttpServlet // Inheriting from HttpServlet mak
 		out.println("<html>");
 		out.println("<head>");
 		out.println("<title>Logic Predicate Servlet</title>");
-		out.println("</head>");
-		
-		out.println("<style>");
-		out.println("body { background-color: #D1F2EB; font-family: sans-serif; }");
+		out.println("<link rel='stylesheet' href='./432-style.css' type='text/css'>");
+                out.println("<style>");
+                out.println("button { border: 3px solid rgb(23,53,95); border-radius: 8px; padding: 10px; background-color: rgb(193,231,247); font-size: 20px; }");
+                out.println("div { background-color: rgb(235,197,0); color: rgb(23,53,95); padding: 20px; border: 3px solid rgb(23,53,95); }");
+                out.println("</style>");
+		out.println("</head>");		
+		out.println("<body style='background-color: rgb(54,94,120);'>");
+                out.println("<h1 align='center' style='padding:20px; font-size:40px; color: rgb(235,197,0);'>Beth's Practice Exam</h1>")'
+                out.println("<div align='center'>");
+                out.println("<h2 align='center' style='font-size: 30px;'>Your Favorite Book Titles:</h2>");
+                out.println("<form> <input type='text' id='book1' name='book1'><br>");
+                out.println("<input type='text' id='book2' name='book2'><br>");
+                out.println("<input type='text' id='book3' name='book3'><br>");
+                out.println("<br><button type='submit'>Submit</button>");
+                out.println("</form>");
+                out.println("</div>");
+
 		out.println("</body>");
 		out.println("</html>");
 
